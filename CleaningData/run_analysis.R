@@ -55,7 +55,7 @@ cleanData <- cbind(sub, y, filteredX)
 
 temp <- cleanData[, 3:dim(cleanData)[2]] 
 tidyDataAvg <- aggregate(temp,list(cleanData$subject, cleanData$activity), mean)
-names(tidyDataAvg)[1] <- "Subject"
+names(tidyDataAvg)[1] <- "subject"
 names(tidyDataAvg)[2] <- "activity"
 
 ## cleanData has the tidy data we created in step 4, and tidyDataAvg has the averaged data from setp 5
