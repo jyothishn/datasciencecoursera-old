@@ -3,7 +3,6 @@ The following columns are available in the data set
 - Each row has mean data for a given subject and activity. 
 
 The data contains the following columns (180 rows)
-
 subject 
 activity 
 tbodyacc-mean-x 
