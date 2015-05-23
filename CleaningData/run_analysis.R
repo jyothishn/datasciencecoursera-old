@@ -16,7 +16,6 @@ X <- rbind(x_training, X_test)
 y <- rbind(y_training, y_test)
 sub <- rbind(subject_training, subject_test)
 
-
 ##2.Extract only the measurements on the mean and standard deviation for each measurement. 
 
 features <- read.table("features.txt")
