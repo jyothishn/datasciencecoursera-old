@@ -1,19 +1,14 @@
 
 #1. Merge the training and the test sets to create one data set.
 
-## read traning data for X
+## read traning and test data
 x_training <- read.table("./UCI HAR Dataset/train/X_train.txt", header = FALSE)
-## read test data for X
 X_test <- read.table("./UCI HAR Dataset/test/X_test.txt", header = FALSE)
 
-## read traning data for y
 y_training <- read.table("./UCI HAR Dataset/train/y_train.txt", header = FALSE)
-## read test data for y
 y_test <- read.table("./UCI HAR Dataset/test/y_test.txt", header = FALSE)
 
-## read traning data for subject
 subject_training <- read.table("./UCI HAR Dataset/train/subject_train.txt", header = FALSE)
-## read test data for subject
 subject_test <- read.table("./UCI HAR Dataset/test/subject_test.txt", header = FALSE)
 
 # Combines data table for both train and test by rows
