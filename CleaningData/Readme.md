@@ -33,4 +33,5 @@ What does the script do:
 - filter the data for only mean and standard deviation measurements. 
 - rename the columns to remove "(" and ")" characters, and converted to lower case. Also some column names have been modified to be more descriptive (activity, subject)
 - Create a new tidy data set with the average of each variable for each activity and subject.
+- Writes the output to a file TidyDataFileWithAverage.txt in the working directory
 
